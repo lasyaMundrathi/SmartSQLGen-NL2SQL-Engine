@@ -11,7 +11,11 @@ project/
 └── requirements.txt
 ```
 ### Demonstration
-https://github.com/user-attachments/assets/8da1e764-4acd-4ea6-b22a-a1aeef96a4b4
+
+
+
+https://github.com/user-attachments/assets/9d2049e8-bc07-4d43-9061-638adf65b399
+
 
 ### Running the App:
 1. Install the dependencies using pip install -r requirements.txt.
