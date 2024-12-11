@@ -1,7 +1,7 @@
 ### File Structure:
 
 ```bash
-project/
+project
 │
 ├── main.py
 ├── database.py
