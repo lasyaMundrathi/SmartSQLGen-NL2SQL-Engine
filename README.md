@@ -1,11 +1,13 @@
-### Overview
-This project is a Streamlit application designed to interact with a telecom database. It allows users to input natural language questions and generates corresponding SQL queries using Google Gemini AI. The SQL queries are executed on an SQLite database, and the results are displayed in a user-friendly interface. This application demonstrates expertise in Generative AI, database management, and frontend development.
-### Features
-1. Natural Language to SQL Translation: Leverages Google Gemini AI to convert user questions into SQL queries.
-2. Streamlit Interface: Provides an intuitive UI for interacting with the application.
-3. SQLite Database Integration: Manages telecom-related data in three tables: Broadband, MobileUsage, and InternetPlans.
-4. Dynamic Query Execution: Executes AI-generated SQL queries and displays results in tabular format.
-5. Production-Ready Code: Implements robust error handling and modular design for scalability.
+## Overview
+
+This project is a **production-level Streamlit application** designed to interact with a telecom database. It allows users to input natural language questions and generates corresponding SQL queries using **Google Gemini AI**. The SQL queries are executed on an SQLite database, and the results are displayed in a user-friendly interface. This application demonstrates expertise in **Generative AI**, **database management**, and **frontend development**.
+## Features
+
+- **Natural Language to SQL Translation**: Leverages Google Gemini AI to convert user questions into SQL queries.
+- **Streamlit Interface**: Provides an intuitive UI for interacting with the application.
+- **SQLite Database Integration**: Manages telecom-related data in three tables: Broadband, MobileUsage, and InternetPlans.
+- **Dynamic Query Execution**: Executes AI-generated SQL queries and displays results in tabular format.
+- **Production-Ready Code**: Implements robust error handling and modular design for scalability.
 ### File Structure:
 
 ```bash
@@ -28,13 +30,14 @@ https://github.com/user-attachments/assets/9d2049e8-bc07-4d43-9061-638adf65b399
 
 
 
-### Table of Contents
-1.Installation
-Usage
-Database Schema
-Technologies Used
-Key Highlights
-Future Enhancements
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Database Schema](#database-schema)
+3. [Technologies Used](#technologies-used)
+4. [Key Highlights](#key-highlights)
+5. [Future Enhancements](#future-enhancements)
+## INSTALLATION
 ### Prerequisites
 Python 3.10
 Required Python libraries:
@@ -82,7 +85,7 @@ The SQLite database (`telecom.db`) contains three tables:
 | Upload Speed (Mbps)  | INTEGER | Maximum upload speed of the plan          |
 | Monthly Cost ($)     | REAL    | Monthly cost of the internet plan         |
 
-## Technologies Used
+### Technologies Used
 
 - **Frontend**: Streamlit for building an interactive UI.
 - **Backend**:
@@ -91,7 +94,7 @@ The SQLite database (`telecom.db`) contains three tables:
 - **Programming Language**: Python
 - **Environment Management**: `dotenv` for secure API key handling.
 
-## Key Highlights
+### Key Highlights
 
 1. **Generative AI Integration**
    - Utilizes Google Gemini AI (`gemini-1.5-flash`) to translate natural language into precise SQL queries.
@@ -107,7 +110,7 @@ The SQLite database (`telecom.db`) contains three tables:
 4. **Real-Time Query Execution**
    - Executes AI-generated SQL queries on an SQLite database and displays results instantly.
 
-## Future Enhancements
+### Future Enhancements
 
 1. Add support for more databases (e.g., PostgreSQL, MySQL).
 2. Implement multi-turn conversations using Google Gemini's chat capabilities.
